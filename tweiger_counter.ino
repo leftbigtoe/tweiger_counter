@@ -42,7 +42,7 @@ void loop()
       delay(100);
     }
   }
-  else {
+  else{
     servo.write(wpm);
   }
 }
