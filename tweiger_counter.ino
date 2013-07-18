@@ -43,6 +43,8 @@ void loop()
     }
   }
   else {
-    servo.write(wpm);
+    // choose inverted or not depending on servo
+    //servo.write(wpm);
+    servo.write(180-wpm);
   }
 }
